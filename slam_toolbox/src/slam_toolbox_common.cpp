@@ -113,7 +113,7 @@ void SlamToolbox::setParams(ros::NodeHandle& private_nh)
   private_nh.param("map_frame", map_frame_, std::string("map"));
   private_nh.param("base_frame", base_frame_, std::string("base_footprint"));
   private_nh.param("resolution", resolution_, 0.05);
-  private_nh.param("map_name", map_name_, std::string("/map"));
+  private_nh.param("map_name", map_name_, std::string("/map_s"));
   private_nh.param("scan_topic", scan_topic_, std::string("/scan"));
   private_nh.param("throttle_scans", throttle_scans_, 1);
   private_nh.param("enable_interactive_mode", enable_interactive_mode_, false);
